@@ -45,10 +45,12 @@ Optimizer: Adam
 Note: Very high accuracy may indicate overfitting due to a limited dataset size.
 
 # How to Run
-1. Open the notebook: `Chord_Classification.ipynb`
-2. Run all cells in order
-3. Upload a .wav file when prompted
-4. The model will predict whether the chord is Major or Minor
+1. Download dataset from (https://www.kaggle.com/datasets/deepcontractor/musical-instrument-chord-classification/code
+2. Open the notebook: Chord_Classification.ipynb
+3. Run all cells in order
+4. Upload zipped dataset when prompted
+5. Upload a .wav file when prompted
+6. The model will predict whether the chord is Major or Minor
 
 # Notes on Files
 
@@ -62,7 +64,11 @@ To reproduce results:
 3. Train the model
    
 # Repository Structure
-audio-chord-classification > README.md / Chord_Classification(1).ipynb
+audio-chord-classification
+- README.md
+- Chord_Classification(1).ipynb
+- .gitignore
+- LICENSE
 
 # Key Learnings
 - Spectrograms allow audio signals to be processed as images
