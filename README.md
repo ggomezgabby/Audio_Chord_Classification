@@ -62,9 +62,7 @@ To reproduce results:
 3. Train the model
    
 # Repository Structure
-audio-chord-classification/
-├── README.md
-├── Chord_Classification(1).ipynb
+audio-chord-classification > README.md > Chord_Classification(1).ipynb
 
 # Key Learnings
 - Spectrograms allow audio signals to be processed as images
